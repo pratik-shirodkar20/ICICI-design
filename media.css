@@ -1,0 +1,744 @@
+@media (max-width: 992px) {
+  .HeaderLinks {
+    gap: 15px;
+    font-size: 13px;
+  }
+
+  .HeaderBottomlinks {
+    gap: 12px;
+  }
+
+  .HeaderBottomlinks a {
+    font-size: 14px;
+  }
+
+  .MainHeaderleft {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    flex-wrap: wrap;
+  }
+  .MainHeaderTop {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .MainHeaderleft {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .HeaderLinks {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .BotttomContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .HeaderBottomlinks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .HeaderBottomlinks a {
+    font-size: 14px;
+  }
+
+  .HeaderBottombtn {
+    margin-top: 5px;
+  }
+
+  .MainHeaderRight {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeaderLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HeaderBottomlinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MainHeaderleft {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .HeaderBottomlogo img {
+    height: 32px;
+  }
+}
+
+
+  /* ================= MOBILE HERO FIX ================= */
+@media (max-width:480px){
+
+.MainContainer{
+  width:100%;
+  height:auto;
+  padding:20px;
+}
+
+.headingConatiner{
+ text-align: left;
+ padding: 20px;
+}
+
+.headingConatiner h2{
+  font-size:40px;
+}
+
+.headingConatiner p{
+  font-size:20px;
+}
+
+.Line{
+  padding: 0px 20px 20px 20px ;
+}
+
+.headcont{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  align-items:center;
+}
+
+.headingConatiner2{
+  width:100%;
+  max-width:320px;
+}
+
+.headingConatiner2 p{
+  left:60px;
+  font-size:14px;
+}
+
+.headingConatiner2 .new{
+  left:auto;
+  right:10px;
+}
+
+.car{
+  position:static;
+  width:100%;
+  text-align:center;
+}
+
+.car img{
+  width:90%;
+  max-width:300px;
+}
+
+
+.FormContainer{
+  position:static;
+  width:100%;
+  margin-top:60px;
+}
+
+
+.quote-form{
+  width:100%;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+
+.HeroSection{
+  padding:10px 10px;
+}
+
+.formpolicycontainer{
+    width:100%;
+    max-width: 320px;
+    padding: 10px;
+}
+
+.formpolicycontainer h5 {
+   text-align:center;
+    max-width: 300px;
+}
+
+/* Main container */
+.OurCustomerSectionMain{
+  flex-direction: column;
+  padding: 0 15px;
+}
+.OurCustomerSectionHeading{
+  width:100%;
+  height:auto;
+}
+
+.OurCustomerSectionHeading h2{
+  font-size:24px;
+}
+
+.OurCustomerSectionHeading p{
+  font-size:14px;
+}
+
+.ThreeConatiner{
+  flex-direction: column;
+  gap:15px;
+  width:100%;
+}
+.iconbox{
+  width:100%;
+  text-align:center;
+  padding:20px;
+}
+
+.iconbox img{
+  width:300px;
+}
+
+/* ================= SECTION 3 MOBILE FIX ================= */
+
+
+.section3main{
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  gap: 20px;
+  text-align: center;
+}
+
+/* Image full width */
+.carimgsection{
+  width: 100%;
+  height: auto;
+}
+
+.carimgsection img{
+  width: 100%;
+  max-width: 320px;
+}
+
+/* Content full width */
+.carcontentsection{
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+/* Text resize */
+.carcontentsection h2{
+  font-size: 24px;
+}
+
+.carcontentsection p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* ================= CAR INSURANCE POLICIES MOBILE FIX ================= */
+
+/* Main section */
+.carinsurancepoliciesmain{
+  height: auto;
+  padding: 20px;
+}
+
+/* Heading */
+.carinsurancepoliciesmain h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+
+/* Row layout -> column */
+.insurancecontainerpara{
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Hide side arrows on mobile */
+
+
+/* Card full width */
+.carmaincontent{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Image */
+.carimg img{
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Content */
+.insurancecontent{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/* Text */
+.insurancecontent h4{
+  font-size: 18px;
+}
+
+.insurancecontent p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.tablesectionmain{
+  height: auto;
+  padding: 20px;
+}
+
+.toptablesection{
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+
+.toptablesection h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.Maintable{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.lefttable,
+.righttable{
+  width: 100%;
+  height: auto;
+}
+
+.lefttable h4,
+.righttable h4{
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.lefttable p,
+.righttable p{
+  font-size: 14px;
+  padding: 15px;
+}
+
+.bottomtablesection{
+  width: 100%;
+}
+
+.bottomtablesection p{
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+
+.blocks{
+  height: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.blocks h2{
+  width: 100%;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.blocks p{
+  width: 100%;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: start;
+}
+
+.blockcontainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: 100%;
+}
+
+.box{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.box1{
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.box1 img{
+  width: 20px;
+  height: 30px;
+}
+
+.boxcontent{
+  width: 100%;
+  height: auto;
+}
+
+.boxcontent h3{
+  width: 100%;
+  font-size: 16px;
+}
+
+.boxcontent p{
+  width: 100%;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.inclusionSection{
+  height: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.inclusionSection h2{
+  font-size: 22px;
+  text-align: center;
+}
+
+.Inclusions_Exclusions{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.inclusionContent{
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.pointerboxs{
+  flex-direction: column;
+  gap: 15px;
+}
+
+.points p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.points p img{
+  padding-right: 10px;
+  width: 18px;
+}
+
+.documnets{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.documnets a{
+  font-size: 14px;
+}
+
+
+.maintabs{
+  height: auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.maintabs h2{
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.fourtabs{
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.tab1{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 15px;
+}
+
+.tab1 img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.calculated{
+  height: auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.calculated h2{
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.twocompontents{
+  width: 100%;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.compontent1,
+.compontent2{
+  width: 100%;
+  gap: 20px;
+}
+
+.compontent1 h5,
+.compontent2 h5{
+  font-size: 16px;
+  text-align: center;
+}
+
+.point1{
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.point1 img{
+  width: 16px;
+  height: auto;
+}
+
+.point1 p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.compontent img{
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.questions{
+  height: auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.questions h2{
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+
+.headline{
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: none;
+}
+
+.tab{
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.tab.active{
+  background-color: #ec6625;
+  color: white;
+  border: none;
+}
+
+.commonquestion{
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+
+.question1 h4{
+  font-size: 15px;
+}
+
+.question1 p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.ratingreview{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  gap: 25px;
+}
+
+.ratingreview h2{
+  font-size: 22px;
+  text-align: center;
+}
+
+.review{
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating h3{
+  font-size: 24px;
+}
+
+.testimonials{
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lefticon,
+.righticon{
+  display: none;
+}
+
+.comment{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment1{
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.comments p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.pagination img{
+  width: 80px;
+}
+
+
+.reviewbtn{
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.PopularSearches{
+   width: 100%;
+    max-width: 350px;
+    height: auto;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .men img{
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .searches{
+    width: 100%;
+    max-width: 350px;
+    align-items: center;
+  }
+
+  .searches h2{
+    font-size: 22px;
+  }
+
+  .clicks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+  }
+
+  .clicks p{
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  
+
+  .carlistsection{
+  width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  flex-direction: column;
+}
+  .carlistsection h2{
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  .carlist{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .car1{
+    width: 100%;       /* full width cards */
+    max-width: 320px;  /* limit size */
+    height: auto;
+    padding: 15px;
+  }
+
+  .car1 img{
+    width: 100%;
+    height: auto;
+  }
+
+.footer-container{
+    width:100%;
+    margin:auto;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+}
+
+
+
+
